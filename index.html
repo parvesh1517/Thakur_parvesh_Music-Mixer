@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="css/position.css" rel="stylesheet" type="text/css" media="screen">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+  <title> Parvesh| Music Mixer</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="top_bar">
+      <img src="images/parvesh.png" alt="logo" width="600" >
+    </div>
+  </header>
+
+  <div class="main_board">
+
+    <div class="play_board">
+      <div class="drag_Box">
+      </div>
+      <div class="drag_Box">
+      </div>
+      <div class="drag_Box">
+      </div>
+    </div>
+
+    <div class="play_board2">
+      <div class="drag_Box">
+      </div>
+      <div class="drag_Box">
+      </div>
+
+  </div>
+
+    <h2> Click and drag the icons from below, then place above to play. </h2>
+
+    <div class="moving_icons">
+      <div class="icon_holder">
+
+        <div class="icon1">
+        <img id="icon_Test1" data-audio="audio/pt01.mp3" src="images/pt1.png" alt="icon_Test" draggable="true">
+        </div>
+
+        <div class="icon2">
+          <img id="icon_Test2" data-audio="audio/pt02.mp3" src="images/pt2.png" alt="icon_Test" draggable="true">
+        </div>
+
+        <div class="icon3">
+          <img id="icon_Test3" data-audio="audio/pt03.mp3" src="images/pt3.png" alt="icon_Test" draggable="true">
+        </div>
+
+        <div class="icon4">
+          <img id="icon_Test4" data-audio="audio/pt04.mp3" src="images/pt4.png" alt="icon_Test" draggable="true">
+        </div>
+
+        <div class="icon5">
+          <img id="icon_Test5" data-audio="audio/pt05.mp3" src="images/pt5.png" alt="icon_Test" draggable="true">
+        </div>
+
+        <div class="icon6">
+          <img id="icon_Test6" data-audio="audio/pt06.mp3" src="images/pt6.png" alt="icon_Test" draggable="true">
+        </div>
+
+        <div class="icon8">
+          <img id="icon_Test7" data-audio="audio/pt07.mp3" src="images/pt7.png" alt="icon_Test" draggable="true">
+        </div>
+
+        <div class="icon8">
+          <img id="icon_Test8" data-audio="audio/pt08.mp3" src="images/pt8.png" alt="icon_Test" draggable="true">
+        </div>
+
+      </div>
+
+      <div class="reset_Button">
+
+        <button id="refresh" onclick=location=URL>RESET</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>Parvesh Production &copy; 2024</p>
+    </footer>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
