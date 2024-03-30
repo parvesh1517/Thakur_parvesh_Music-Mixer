@@ -57,11 +57,11 @@ h2 {
 
 .drag_Box img {
   border: 4px solid #ffffff;
-  border-radius: 50% !important;
+  border-radius: 50% ;
   transition: .5s;
-  box-shadow: 0 0 15px #ea00d9 !important;
-  height: 90px !important;
-  width: 90px !important;
+  box-shadow: 0 0 15px #ea00d9 ;
+  height: 90px ;
+  width: 90px ;
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
